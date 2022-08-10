@@ -1,0 +1,244 @@
+body{
+    margin: 0px;
+}
+.container{
+    width: 200px;
+    height: 100vh;
+    background-color: darkred;
+}
+.item{
+    height: 70px;
+    width: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: black;
+    margin: 10px;
+}
+.b{
+    background-color: white;
+    width: 20px;
+    height: 3px;
+    position: absolute;
+}
+.item-container:hover .item{
+    animation: item 0.5s ease ;
+}
+.border-container1{
+    width: 105px;
+    height: 42px;
+    margin-left: 50px;
+    margin-top: 5px;
+}
+.border-container2{
+    width: 115px;
+    height: 42px;
+    margin-left: 50px;
+    margin-top: 5px;
+}
+.border-container3{
+    width: 130px;
+    height: 42px;
+    margin-left: 50px;
+    margin-top: 5px;
+}
+.border-container4{
+    width: 110px;
+    height: 42px;
+    margin-left: 50px;
+    margin-top: 5px;
+}
+.border1{
+    width: 100%;
+    height: 3px;
+    background-color: aliceblue;
+}
+.border2{
+    width: 100%;
+    height: 3px;
+    background-color: aliceblue;
+}
+.names{
+    margin-top: 50px;
+    width: 200px;
+}
+.Mgr{
+    animation: Mgr 0.3s ease;
+    width: 150px;
+    margin-left: 5px;
+}
+.border-container1:hover .border1{
+    animation: cool 0.5s ease;
+    animation-fill-mode: forwards;
+}
+.border-container1:hover .border2{
+    animation: cool-oppisite 0.5s ease;
+    animation-fill-mode:forwards;
+}
+.border-container2:hover .border1{
+    animation: cool2 0.5s ease;
+    animation-fill-mode: forwards;
+}
+.border-container2:hover .border2{
+    animation: cool-oppisite2 0.5s ease;
+    animation-fill-mode: forwards;
+}
+.border-container3:hover .border1{
+    animation: cool3 0.5s ease;
+    animation-fill-mode: forwards;
+}
+.border-container3:hover .border2{
+    animation: cool-oppisite3 0.5s ease;
+    animation-fill-mode:forwards;
+}
+.border-container4:hover .border1{
+    animation: cool4 0.5s ease;
+    animation-fill-mode: forwards;
+}
+.border-container4:hover .border2{
+    animation: cool-oppisite4 0.5s ease;
+    animation-fill-mode: forwards;
+}
+@keyframes cool {
+    from{
+        opacity: 0.3;
+        width: normal;
+        height: normal;
+    transform: translateY(0px) translateX(0px);
+    }
+    to{
+        opacity: 1;
+      width: 3px;
+      height:20px ;
+transform: translateY(22px) translateX(-10px);
+    }
+}
+@keyframes cool-oppisite {
+    from{
+
+        opacity: 0.3;
+     width: normal;
+     height: normal;
+     transform: translateY(0px) translateX(0px);
+    }
+    to{
+        opacity: 1;
+     width: 3px;
+     height:20px ;
+     transform: translateY(-25px) translateX(110px);
+    }
+}
+@keyframes cool2 {
+    from{
+        opacity: 0.3;
+        width: normal;
+        height: normal;
+    transform: translateY(0px) translateX(0px);
+    }
+    to{
+        opacity: 1;
+      width: 3px;
+      height:20px ;
+transform: translateY(22px) translateX(-10px);
+    }
+}
+@keyframes cool-oppisite2 {
+    from{
+        opacity: 0.3;
+     width: normal;
+     height: normal;
+     transform: translateY(0px) translateX(0px);
+    }
+    to{
+        opacity: 1;
+     width: 3px;
+     height:20px ;
+     transform: translateY(-22px) translateX(120px);
+    }
+}
+@keyframes cool3 {
+    from{
+        opacity: 0.3;
+        width: normal;
+        height: normal;
+    transform: translateY(0px) translateX(0px);
+    }
+    to{
+        opacity: 1;
+      width: 3px;
+      height:20px;
+transform: translateY(22px) translateX(-3px);
+    }
+}
+@keyframes cool-oppisite3 {
+    from{
+        opacity: 0.3;
+     width: normal;
+     height: normal;
+     transform: translateY(0px) translateX(0px);
+    }
+    to{
+        opacity: 1;
+     width: 3px;
+     height:20px ;
+     transform: translateY(-25px) translateX(130px);
+    }
+}
+@keyframes cool4 {
+    from{
+        opacity: 0.3;
+        width: normal;
+        height: normal;
+    transform: translateY(0px) translateX(0px);
+    }
+    to{
+        opacity: 1;
+      width: 3px;
+      height:20px ;
+transform: translateY(22px) translateX(-5px);
+    }
+}
+@keyframes cool-oppisite4 {
+    from{
+        opacity: 0.3;
+     width: normal;
+     height: normal;
+     transform: translateY(0px) translateX(0px);
+    }
+    to{
+        opacity: 1;
+     width: 3px;
+     height:20px ;
+     transform: translateY(-25px) translateX(110px);
+    }
+}
+.border1{
+margin-top: 5px;
+margin-bottom: 5px;
+}
+.border2{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.hah{
+    width: 115px;
+    height: 60px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.heh{
+    cursor: pointer;
+    opacity: 0;
+}
+.heh:hover{
+    opacity: 1;
+    animation: names 0.6s ease ;
+}
+@keyframes names {
+    from{
+     transform: translateX(-40px);
+    }
+    to{
+     transform: translateX(0px);
+    }
+}
