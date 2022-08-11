@@ -22,6 +22,7 @@
     align-items: center;
     justify-content: space-around;
     cursor: pointer;
+    margin: 10px;
 }
 .b{
     background-color: white;
