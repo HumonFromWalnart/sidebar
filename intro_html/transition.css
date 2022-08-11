@@ -1,0 +1,39 @@
+.condition{
+    width: 100%;
+    height: 100vh;
+}
+.zurag{
+    width: 50vh;
+    height: 70vh; 
+    border: 2px solid black;
+    
+}
+.PetWorld{
+    width: 40vh;
+    height: 50vh;
+    display: flex;
+    padding-left: 55px;
+}.PetWorld:hover{
+ 
+    transition: 0.5s;
+    transform: scale(1.3);
+}
+.text{
+    font-style: italic;
+    display: flex;
+    justify-content: center;
+}
+.none{
+    display: flex;
+    justify-content: center;
+}
+.none1{
+    width: 30%;
+    height: 50px;
+    color: rgb(189, 192, 192);
+    border: none;
+    /* display: none; */
+}
+.condition:hover .none{
+    display: flex;
+}

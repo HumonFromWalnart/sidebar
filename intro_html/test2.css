@@ -1,0 +1,19 @@
+.letters {
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    gap: 10px
+}
+.niitleg {
+    width: 100px;
+    height: 150px;
+    border-top: 1px solid blue;
+    font-size: 40px;
+    text-align: center;
+}
+.niitleg{
+    background-color:aliceblue;
+}
+.box1{
+    background-color:rgb(248, 218, 48) ;
+}

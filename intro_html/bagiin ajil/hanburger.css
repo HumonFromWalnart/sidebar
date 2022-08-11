@@ -1,0 +1,66 @@
+/* BILEGT */
+*{
+    margin: 0;
+}
+.condition{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(3, 33, 33);
+}
+.hanburger{
+    width: 25%;
+    height: 100%;
+    background-color: rgba(10,48,67,255);
+    display: flex;
+}
+.l1{
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    background-color: rgba(10,48,67,255);
+    border: hidden;
+}
+.bar{
+    width: 35px;
+    height: 5px;
+    background: aqua;
+    margin: 10px auto;
+}
+/* BILEGT */
+/* TENGIS */
+@keyframes cross {
+    from{
+     transform: translateY(0px) rotate(0deg);
+    }
+    to{
+     transform: translateY(15px) rotate(45deg);
+    }
+}
+@keyframes disappear {
+    from{
+     width: normal;
+    }
+    to{
+     width: 1px;
+    }
+}
+.l1:hover .animation2{
+    animation: disappear 0.6s ease;
+}
+
+@keyframes inverted-cross {
+    from{
+     transform: translateY(0px) rotate(0deg);
+    }
+    to{
+     transform: translateY(-15px) rotate(-45deg);
+    }
+}
+.l1:hover .animation3{
+    animation: inverted-cross 0.6s ease;
+}
+.l1:hover .animation1{
+    animation: cross 0.6s ease;
+}
+/* TENGIS */
+/* BILEGT */
