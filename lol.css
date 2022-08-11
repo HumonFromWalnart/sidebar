@@ -1,10 +1,15 @@
-body{
-    margin: 0px;
+*{
+    margin: 0%;
+}
+.head-container{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(50, 50, 50);
 }
 .container{
     width: 200px;
     height: 100vh;
-    background-color: darkred;
+    background-color: gray;
 }
 .item-box{
     height: 70px;
@@ -12,17 +17,18 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    background-color: black;
-    margin: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
+    cursor: pointer;
 }
 .b{
     background-color: white;
-    width: 50px;
+    width: 45px;
     height: 7px;
+    margin: 5px auto;
+    box-shadow: 2px 2px white, 0 0 25px darkgrey;
 }
 .item-box-container{
     width: 100px;
@@ -106,6 +112,7 @@ body{
     animation: Mgr 0.3s ease;
     width: 150px;
     margin-left: 5px;
+    color: white;
 }
 .border-container1:hover .border1{
     animation: cool 0.5s ease;
