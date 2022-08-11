@@ -284,3 +284,6 @@ margin-bottom: 5px;
 .item-container:hover .names{
     animation: names 0.6s ease ;
 }
+.heh{
+    margin: 10px auto;
+}
