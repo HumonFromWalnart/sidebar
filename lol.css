@@ -362,32 +362,36 @@ margin-bottom: 5px;
 .dark-souls:hover{
     width:773px; 
     height: 317px;
-    transform: translate(-100px);
-    transform: rotate(360deg);
-    box-shadow: 5px 5px black, 10px 10px black, 15px 15px black, 20px 20px black;
+    transform: translate(-30px);
+    box-shadow: 2px 2px black, 0 0 35px cyan;
 }
 .mortal5:hover{
     width: 555px; 
     height:245px;
+    transform: translate(-30px);
     box-shadow: 2px 2px black, 0 0 35px cyan;
 }
 .tekken:hover{
     width: 245px; 
     height: 250px; 
+    transform: translate(-30px);
     box-shadow: 2px 2px black, 0 0 35px cyan;
 }
 .dmc5:hover{
     width:803px; 
     height: 365px;
+    transform: translate(-30px);
     box-shadow: 2px 2px black, 0 0 35px cyan;
 }
 .left4:hover{
     width: 531px; 
     height:595px;
+    transform: translate(-30px);
     box-shadow: 2px 2px black, 0 0 35px cyan;
 }
 .mca1:hover{
     width: 531px; 
     height:365px;
+    transform: translate(-30px);
     box-shadow: 2px 2px black, 0 0 35px cyan;
 }
