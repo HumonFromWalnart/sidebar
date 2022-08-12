@@ -360,38 +360,26 @@ margin-bottom: 5px;
     position: absolute;
 }
 .dark-souls:hover{
-    width:773px; 
-    height: 317px;
-    transform: translate(-30px);
-    box-shadow: 2px 2px black, 0 0 35px cyan;
+    transform: translateY(-30px) translateX(-20px);
+    box-shadow: 5px 5px black,10px 10px rgb(20, 20, 20), 15px 15px rgb(41, 41, 41), 20px 20px rgb(51, 51, 51);
 }
 .mortal5:hover{
-    width: 555px; 
-    height:245px;
-    transform: translate(-30px);
-    box-shadow: 2px 2px black, 0 0 35px cyan;
+    transform: translateY(-30px)  translateX(-20px);
+    box-shadow: 5px 5px black,10px 10px rgb(20, 20, 20), 15px 15px rgb(41, 41, 41), 20px 20px rgb(51, 51, 51)
 }
 .tekken:hover{
-    width: 245px; 
-    height: 250px; 
-    transform: translate(-30px);
-    box-shadow: 2px 2px black, 0 0 35px cyan;
+    transform: translateY(-30px)  translateX(-20px);
+    box-shadow: 5px 5px black,10px 10px rgb(20, 20, 20), 15px 15px rgb(41, 41, 41), 20px 20px rgb(51, 51, 51)
 }
 .dmc5:hover{
-    width:803px; 
-    height: 365px;
-    transform: translate(-30px);
-    box-shadow: 2px 2px black, 0 0 35px cyan;
+    transform: translateY(-30px)  translateX(-20px);
+    box-shadow: 5px 5px rgba(19,5,5,255),10px 10px rgb(20, 20, 20), 15px 15px rgb(41, 41, 41), 20px 20px rgb(51, 51, 51)
 }
 .left4:hover{
-    width: 531px; 
-    height:595px;
-    transform: translate(-30px);
-    box-shadow: 2px 2px black, 0 0 35px cyan;
+    transform: translateY(-30px) translateX(-20px);
+    box-shadow: 5px 5px black,10px 10px rgb(20, 20, 20), 15px 15px rgb(41, 41, 41), 20px 20px rgb(51, 51, 51)
 }
 .mca1:hover{
-    width: 531px; 
-    height:365px;
-    transform: translate(-30px);
-    box-shadow: 2px 2px black, 0 0 35px cyan;
+    transform: translateY(-20px) translateX(-20px);
+    box-shadow: 5px 5px rgba(90,59,39,255),10px 10px rgba(73,52,35,255), 15px 15px rgba(58,40,28,255), 20px 20px #383838;
 }
